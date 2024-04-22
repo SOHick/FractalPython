@@ -29,7 +29,7 @@ for ip, p in enumerate(np.linspace(pmin, pmax, xpoints)):
         z = 0
         for k in range(max_iterations):
             z = 1/(cmath.sin(1/(z ** 2 + c)))
-            # Самая Главная Формула
+            # Самая главная формула
 
             if abs(z) > infinity_border:
                 image[ip, iq] = k
